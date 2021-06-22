@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS employee;
+CREATE TABLE employee (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name varchar(50) DEFAULT NULL,
+    role varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
