@@ -10,4 +10,6 @@ public interface EmployeeService {
     public Employee findEmployeeById(Long Id);
     public Employee updateEmployee(Employee employee);
     public void deleteEmployeeById(Long Id);
+    public void deleteAll();
+    public List<Employee> findEmployeeByEmail(String email);
 }
