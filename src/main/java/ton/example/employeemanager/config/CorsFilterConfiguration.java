@@ -9,13 +9,13 @@ import org.springframework.web.filter.CorsFilter;
 import java.util.Arrays;
 
 @org.springframework.context.annotation.Configuration
-public class Configuration {
-
+public class CorsFilterConfiguration {
+    /*
     // Cors configuration
     @Bean
     public FilterRegistrationBean corsFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        CorsConfiguration config = new CorsConfiguration();
+        org.springframework.web.cors.CorsConfiguration config = new org.springframework.web.cors.CorsConfiguration();
         config.setAllowCredentials(true);
         config.addAllowedOrigin("http://localhost:4200");
         config.setAllowedHeaders(Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type",
@@ -29,4 +29,5 @@ public class Configuration {
         bean.setOrder(0);
         return bean;
     }
+     */
 }
